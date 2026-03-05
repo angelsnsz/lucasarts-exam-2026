@@ -7,6 +7,14 @@ public class Character {
     private String power;
     private String debility;
 
+    public Character(String id, String name, String type, String power, String debility) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.power = power;
+        this.debility = debility;
+    }
+
     public String getId() {
         return id;
     }
