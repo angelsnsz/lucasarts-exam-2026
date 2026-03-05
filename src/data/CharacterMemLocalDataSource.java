@@ -1,6 +1,7 @@
 package data;
 
 import domain.Character;
+
 import java.util.ArrayList;
 import java.util.Objects;
 
